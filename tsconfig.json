@@ -9,8 +9,8 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "types": ["express", "node"]
+    "types": ["express", "node", "jest"]
   },
   "include": ["src/**/*", "index.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

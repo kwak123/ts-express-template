@@ -8,7 +8,8 @@
     "dev": "nodemon dist/index.js",
     "build": "yarn lint && tsc",
     "lint": "tslint --project ./tsconfig.json",
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,13 @@
   },
   "homepage": "https://github.com/kwak123/transit-lite#readme",
   "devDependencies": {
+    "@types/jest": "^25.1.4",
     "@types/node": "^13.7.0",
+    "@types/supertest": "^2.0.8",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.2.1",
     "tslint": "^6.0.0",
     "tslint-config-airbnb": "^5.11.2",
     "tslint-consistent-codestyle": "^1.16.0",
