@@ -4,8 +4,8 @@
   "description": "Simple template for creating TS express servers",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon dist/index.js",
+    "start": "yarn build && node dist/index.js",
+    "dev": "yarn build && nodemon dist/index.js",
     "build": "yarn lint && tsc",
     "lint": "tslint --project ./tsconfig.json",
     "test": "jest",
